@@ -9,6 +9,37 @@
 </head>
 
 <body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" id="text-field">
+            <input type="button" value="clear" onclick="clearText()">
+        </section>
+        <br>
+        <section>
+            <input type="button" value="1" onclick="buttonCall('1')">
+            <input type="button" value="2" onclick="buttonCall('2')">
+            <input type="button" value="3" onclick="buttonCall('3')">
+            <input type="button" value="+" onclick="buttonCall('+')">
+            <input type="button" value="/" onclick="buttonCall('/')">
+            <br><br>
+            <input type="button" value="4" onclick="buttonCall('4')">
+            <input type="button" value="5" onclick="buttonCall('5')">
+            <input type="button" value="6" onclick="buttonCall('6')">
+            <input type="button" value="-" onclick="buttonCall('-')">
+            <input type="button" value="*" onclick="buttonCall('*')">
+            <br><br>
+            <input type="button" value="7" onclick="buttonCall('7')">
+            <input type="button" value="8" onclick="buttonCall('8')">
+            <input type="button" value="9" onclick="buttonCall('9')">
+            <input type="button" value="0" onclick="buttonCall('0')">
+            <input type="button" value="=" id="btn-result">
+        </section>
+    </main>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
